@@ -1,0 +1,13 @@
+ibm:
+  mq:
+    queueManager: QM1
+    channel: DEV.ADMIN.SVRCONN
+    connName: 192.168.99.104(1414)
+    user: admin
+    password: passw0rd
+    ssl-cipher-spec:
+    client-id: client
+spring:
+  jms:
+    cache:
+      enabled: false
